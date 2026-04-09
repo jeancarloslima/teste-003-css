@@ -1,8 +1,12 @@
 import './App.css'
+import Tela01 from './components/Tela01'
 
 function App() {
   return (
-    <h1></h1>
+    <>
+      <Tela01 status="online" />
+      <Tela01 status="offline" />
+    </>
   )
 }
 
