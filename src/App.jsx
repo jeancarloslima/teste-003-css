@@ -4,6 +4,7 @@ import Tela02 from './components/Tela02'
 import Tela03 from './components/Tela03'
 import Tela04 from './components/Tela04'
 import Tela05 from './components/Tela05'
+import Tela06 from './components/Tela06'
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <Tela03 />
       <Tela04 texto="Clique aqui!" />
       <Tela05 />
+      <Tela06 ativo />
+      <Tela06 />
     </div>
   )
 }
